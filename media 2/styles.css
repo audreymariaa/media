@@ -1,0 +1,102 @@
+/* COLLECTION */
+
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: #2a2e02;
+  color: rgb(234, 234, 234);
+  margin: 0;
+  padding: 0; 
+  line-height: 1.3;
+  font-size: 16px;
+  min-height: 100vh;
+  max-width: 100vw;
+  font-family: "DM Sans", sans-serif;
+}
+
+img {
+  max-width: 100%;
+}
+
+header {
+  background-color: rgba(255, 255, 255, 25%);
+  max-width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 16px;
+  padding: 8px;
+  border-radius: 32px;
+  position: sticky;
+  top: 16px;
+  display: grid;
+  grid-template-columns: 45% 25% 25%;
+  align-items: center;
+  backdrop-filter: blur(3px);
+}
+
+a {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+}
+
+footer {
+  text-align: center;
+  color: #6c6c6c;
+}
+
+.button {
+  border: 1px solid;
+  padding: 8px 16px;
+  border-radius: 32px;
+  background-color: rgba(255, 255, 255, 25%);
+  backdrop-filter: blur(3px);
+}
+
+a:hover {
+  opacity: 50%;
+}
+
+main {
+  padding: 16px;
+  max-width: 800px;
+  margin: 0 auto;
+  min-height: 90vh;
+}
+
+.bg-image {
+  background-image: url(images/sand.jpg);
+  background-size: cover;
+  background-position: center;
+  background-blend-mode: multiply;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
+  gap: 16px;;
+}
+
+
+.center-align{
+  text-align: center;
+}
+
+.vertical-align{
+display:grid;
+align-items: center;
+}
+
+.max-width {
+    max-width: fit-content;
+}
+
+.left-align{
+  text-align: left;
+}
+
+.right-align{
+  text-align: right;
+}
